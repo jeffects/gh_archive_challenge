@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/gh_repo_stats'
+
+GHRepoStats::Application.new.run
